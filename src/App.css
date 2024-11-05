@@ -1,0 +1,23 @@
+.CodeMirror {
+    height: 100% !important;
+}
+
+.CodeMirror-vscrollbar {
+    display: none !important;
+}
+
+::-webkit-scrollbar {
+    width: 60px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
