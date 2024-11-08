@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 
 export default function useLocalStorage(key: string, initialValue: unknown) {
+  
   const storageKey = `codepen-clone-${key}`;
 
   const [value, setValue] = useState(() => {
