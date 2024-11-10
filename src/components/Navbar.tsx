@@ -3,6 +3,7 @@ import { AiFillHeart, AiTwotoneSetting, AiFillLayout } from 'react-icons/ai'
 import { ModeToggle } from './mode-toggle';
 
 const Navbar = () => {
+    
   return (
     <nav className='w-screen h-16 bg-black flex items-center justify-between px-2 py-2 border-b border-gray-900'>
         <div className='flex gap-1'>
