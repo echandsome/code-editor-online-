@@ -13,6 +13,7 @@ import CodeEditor from "@/components/code-editor";
 import "./App.css";
 
 export default function App() {
+  
   const [html, setHtml] = useLocalStorage("html", "");
   const [css, setCss] = useLocalStorage("css", "");
   const [js, setJs] = useLocalStorage("javascript", "");
